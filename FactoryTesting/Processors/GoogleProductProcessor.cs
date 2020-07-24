@@ -14,7 +14,11 @@ namespace FactoryTesting
 
         public Product GetProduct(Guid id)
         {
-            return new Product("Newest Google Product");
+            return new Product(Guid.NewGuid(), "Newest Google Product");
+        }
+
+        public void AddProduct(Product product)
+        {
         }
     }
 }

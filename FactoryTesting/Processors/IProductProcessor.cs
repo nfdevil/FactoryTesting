@@ -6,5 +6,6 @@ namespace FactoryTesting
     {
         void BuyProduct(Guid id);
         Product GetProduct(Guid id);
+        void AddProduct(Product product);
     }
 }

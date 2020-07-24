@@ -14,7 +14,11 @@ namespace FactoryTesting
 
         public Product GetProduct(Guid id)
         {
-            return new Product("Alexa Client");
+            return new Product(Guid.NewGuid(), "Alexa Client");
+        }
+
+        public void AddProduct(Product product)
+        {
         }
     }
 }

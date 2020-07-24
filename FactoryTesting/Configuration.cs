@@ -14,6 +14,6 @@
         }
 
         private static ProductType ProductTypeFromFile()
-            => ProductType.Aws;
+            => ProductType.Azure;
     }
 }

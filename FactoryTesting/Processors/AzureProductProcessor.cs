@@ -23,5 +23,10 @@ namespace FactoryTesting
         {
             return _azureProductRepository.GetProduct(id);
         }
+
+        public void AddProduct(Product product)
+        {
+            _azureProductRepository.AddProduct(product);
+        }
     }
 }

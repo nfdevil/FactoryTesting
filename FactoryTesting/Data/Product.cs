@@ -7,9 +7,9 @@ namespace FactoryTesting
         public Guid Id { get; }
         public string Description { get; }
 
-        public Product(string description)
+        public Product(Guid id, string description)
         {
-            Id = Guid.NewGuid();
+            Id = id;
             Description = description;
         }
     }
